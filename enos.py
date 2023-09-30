@@ -8,9 +8,9 @@ nome = 4+10j # z = x+yj, onde j é imaginário
 print(type(nome))
 nome = True
 print(type(nome))
-nome = ["enos"]
+nome = ["enos"] # note que começa com colchetes
 print(type(nome))
 nome = {"enos":1}
 print(type(nome))
-nome = ('enos','gomes')
+nome = ('enos','gomes') # note que começa com parenteses
 print(type(nome))
