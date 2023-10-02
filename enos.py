@@ -1,2 +1,4 @@
-numeroGrande = 123_345 # numeros grandes sao dividos por underline
-print(1+numeroGrande)
+nome = "Enos Gomes"
+idade = 31
+
+print(f"Meu nome é {nome}, tenho {idade} e {isCasado} ")
