@@ -13,5 +13,7 @@ navegador.get("https://pages.hashtagtreinamentos.com/inscricao-minicurso-python-
 
 #navegador.find_element_by_xpath('//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/div[1]/div/div[1]/div/input').send_keys("enos")
 navegador.find_element('xpath','//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/div[1]/div/div[1]/div/input').send_keys("enos")
-navegador.find_element('xpath','//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/div[1]/div/div[2]/div/input').send_keys("email")
+navegador.find_element('xpath','//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/div[1]/div/div[2]/div/input').send_keys("email@email.com")
 navegador.find_element('xpath','//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/div[1]/div/div[3]/div/input').send_keys("98")
+
+navegador.find_element('xpath','//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/button').click()
